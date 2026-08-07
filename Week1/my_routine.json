@@ -1,0 +1,30 @@
+[
+    {
+        "time": "07:00 AM",
+        "activity": "Morning Exercise",
+        "priority": "High",
+        "status": "Modified",
+        "note": "Rain alert! Consider shifting to indoor exercise/reading."
+    },
+    {
+        "time": "09:00 AM",
+        "activity": "Python API Coding Session",
+        "priority": "High",
+        "status": "Scheduled",
+        "note": ""
+    },
+    {
+        "time": "02:00 PM",
+        "activity": "Study GenAI Concepts & Prompting",
+        "priority": "Medium",
+        "status": "Scheduled",
+        "note": ""
+    },
+    {
+        "time": "05:00 PM",
+        "activity": "Evening Walk",
+        "priority": "Low",
+        "status": "Modified",
+        "note": "Rain alert! Consider shifting to indoor exercise/reading."
+    }
+]
