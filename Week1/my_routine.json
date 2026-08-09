@@ -3,8 +3,8 @@
         "time": "07:00 AM",
         "activity": "Morning Exercise",
         "priority": "High",
-        "status": "Modified",
-        "note": "Rain alert! Consider shifting to indoor exercise/reading."
+        "status": "Scheduled",
+        "note": ""
     },
     {
         "time": "09:00 AM",
@@ -24,7 +24,7 @@
         "time": "05:00 PM",
         "activity": "Evening Walk",
         "priority": "Low",
-        "status": "Modified",
-        "note": "Rain alert! Consider shifting to indoor exercise/reading."
+        "status": "Scheduled",
+        "note": ""
     }
 ]

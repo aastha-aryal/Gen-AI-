@@ -8,9 +8,8 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 
-# 1. Function to fetch current weather using WeatherAPI
+# fetch current weather using WeatherAPI
 def get_weather_condition(city="Kathmandu"):
-  """Fetch current weather to see if outdoor activities are suitable."""
   url = "http://api.weatherapi.com/v1/current.json"
   params = {"key": API_KEY, "q": city, "aqi": "no"}
 
@@ -81,7 +80,7 @@ def create_daily_routine():
   return routine
 
 
-# 3. Function to save the generated routine to a JSON file
+# save routine to a JSON file
 def save_routine_to_json(routine_data, filename="my_routine.json"):
   try:
     with open(filename, "w", encoding="utf-8") as file:
@@ -104,5 +103,5 @@ if __name__ == "__main__":
     if slot["note"]:
       print(f"   ⚠️  Note: {slot['note']}")
 
-  # Save to local JSON file
+
   save_routine_to_json(my_routine)
