@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from google import genai
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Initialize the client
