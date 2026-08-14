@@ -23,7 +23,6 @@ What is the importance of having a well-organized
 college routine?
 """
 
-
 response = client.models.generate_content(
     model="gemini-3.5-flash",
     contents=user_prompt,

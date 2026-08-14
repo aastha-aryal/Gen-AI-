@@ -2,7 +2,7 @@ import tiktoken
 
 text = "Hello! I am a Computer Engineering student."
 
-# Load standard LLM Byte-Pair Encoding (BPE)
+# Load standard LLM Byte-Pair Encoding 
 encoding = tiktoken.get_encoding("cl100k_base")
 
 # Text lai integer token IDs ma turn garne
