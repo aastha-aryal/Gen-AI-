@@ -17,7 +17,7 @@ def generate_quiz(topic):
     print(f"\n[Gemini AI] Generating 3 questions on '{topic}'...")
     
     system_instruction = (
-        "You are an assistant. Generate 3 multiple choice questions on the user's requested topic. "
+        "You are an assistant. Generate 3 simple to moderately difficult multiple choice questions on the user's requested topic. "
         "Return strictly valid JSON array of objects with keys: "
         "'question', 'options' (dictionary with keys A, B, C, D), and 'correct_option' ('A', 'B', 'C', or 'D')."
     )
