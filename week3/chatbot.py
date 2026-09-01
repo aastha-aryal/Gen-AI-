@@ -3,6 +3,7 @@ import sys
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
+from google.genai.client import APIError
 
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
@@ -23,7 +24,7 @@ BOLD = "\033[1m"
 DIM = "\033[2m"
 
 class BCTChatbot:
-    def __init__(self, model_name: str = "gemini-2.5-flash"):
+    def __init__(self, model_name: str = "gemini-3.5-flash"):
         self.model_name = model_name
         self.client = self._setup_client()
 

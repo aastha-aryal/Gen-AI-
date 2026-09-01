@@ -1,5 +1,5 @@
 """
-Task 4 / Integration: everything from files 1-3, combined, plus
+Task 4 / Integration: everything from files 1-3, combined,
 temperature and max_output_tokens exposed as constants so you can
 experiment and observe the effect on responses.
 
@@ -23,12 +23,6 @@ SYSTEM_INSTRUCTION = (
     "user learn."
 )
 
-# --- Parameters to experiment with ------------------------------------------
-# TEMPERATURE: 0 = focused/deterministic (same prompt -> near-identical
-#              answers). Closer to 1+ = more varied/creative wording.
-# MAX_OUTPUT_TOKENS: hard cap on reply length. If Gemini hits this limit
-#              mid-sentence, the reply just stops -- it does not
-#              summarize itself to fit.
 TEMPERATURE = 0.7
 MAX_OUTPUT_TOKENS = 500
 
