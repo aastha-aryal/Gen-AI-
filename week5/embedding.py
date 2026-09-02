@@ -14,7 +14,6 @@ result = client.models.embed_content(
     contents=sentence
 )
 
-
 # Get the embedding vector
 embedding = result.embeddings[0].values
 
