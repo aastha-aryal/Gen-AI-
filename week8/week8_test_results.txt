@@ -1,0 +1,21 @@
+Week 8 RAG App - Test Results
+========================================
+
+Question: What is Streamlit used for?
+Context found: True
+Answer: Based on the provided context, Streamlit is used to turn a normal Python script into a simple web application.
+----------------------------------------
+Question: What does a try/except block do?
+Context found: True
+Answer: Based on the provided context, a try/except block allows a program to catch an error and keep running instead of crashing.
+----------------------------------------
+Question: What is the capital of Japan?
+Context found: False
+Answer: Please note that this answer is based on general knowledge, as no relevant information was found in your documents. 
+
+The capital of Japan is **Tokyo**.
+----------------------------------------
+Question: Explain what a README file is for.
+Context found: True
+Answer: Based on the provided context, a README file explains what a project does and provides instructions on how someone else can run it.
+----------------------------------------
